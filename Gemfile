@@ -37,6 +37,9 @@ group :test, :development do
   gem 'pry'
   gem 'pry-byebug'
   gem 'dotenv-rails'
+  gem "guard-rspec"
+  gem "growl"
+  gem "guard-livereload", require: false
 end
 
 # Use ActiveModel has_secure_password
@@ -47,8 +50,22 @@ gem 'unicorn'
 
 gem 'sidekiq'
 
+
+gem 'growl_notify'
+gem 'ruby_gntp'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'nokogiri'
+
+gem 'typhoeus'
+
+gem 'unicorn'
+
+gem 'sidekiq'
+
+
